@@ -97,6 +97,22 @@ header button {
 header button:hover {
     background-color: #e6e6ff;
 }
+.login-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: #5D5FEF;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adds a subtle shadow */
+}
+
+.login-button:hover {
+    background-color: #e6e6ff; /* Off-white shade on hover */
+}
+
 
 /* Section Styling */
 section {
